@@ -1,0 +1,450 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://allfont.ru/allfont.css?fonts=micra" rel="stylesheet" type="text/css" />
+	<title>HookahMix</title>
+	<link rel="stylesheet" href="main.css">	
+	<meta charset="UTF-8" />
+</head>
+	
+	
+
+<body link="red" vlink="#cecece" alink="#ff0000">
+	
+	<a name="toptop"></a>
+	<a href="index.html"><ul class="logo"></ul></a><br>
+
+
+<a class="pres" >Сайт для начинающих кальянщиков.</a>
+<a href="#videofix" class="videoo">ВИДЕО УРОКИ</a>
+			<div class="menu0">
+				<li  class="menua"><a href="index.html" class="link"><a class="link12">MIX</a></a></li>
+				<li  class="menua"><a href="tabak.html" class="link">ТАБАКИ</a></li>
+				<li  class="menua"><a href="kalyan.html" class="link">КАЛЬЯНЫ</a></li>
+				<li  class="menua"><a href="chashi.html" class="link">ЧАШИ</a></li>
+			</div>
+
+			<hr class="hr2" color="#000">
+
+<a class="pres1">Меню миксов</a>
+
+	<div class="bg">
+			<ul class="menu1">
+				<li class="li1" id="1" onclick="sloy_1(id)">СЛАДКИЙ</li>
+				<li class="li1" id="2" onclick="sloy_1(id)">КИСЛЫЙ</li>
+				<li class="li1" id="3" onclick="sloy_1(id)">СВЕЖИЙ</li>
+				<li class="li1" id="4" onclick="sloy_1(id)">ПРЯНЫЙ</li>
+			</ul>
+		
+
+			<ul class="menu3">
+				<li class="li3" id="5" onclick="sloy_2(id)">ЛЕГКИЙ</li>
+				<li class="li3" id="6" onclick="sloy_2(id)">СРЕДНИЙ</li>
+				<li class="li3" id="7" onclick="sloy_2(id)">ТЯЖЕЛЫЙ</li>
+			</ul>
+
+			<ul class="menu2">
+				<li class="li2" id="8" onclick="wwww(id)">AlFakher</li>
+				<li class="li2" id="9" onclick="wwww(id)">Adalya</li>
+				<li class="li2" id="10" onclick="wwww(id)">Fasil</li>
+				<li class="li2" id="11" onclick="wwww(id)">Nakhla</li>
+				<li class="li2" id="12" onclick="wwww(id)">Tangir</li>
+				<li class="li2" id="13" onclick="wwww(id)">Afzal</li>
+				<li class="li2" id="14" onclick="wwww(id)">Serbetli</li>
+				<li class="li2" id="15" onclick="wwww(id)">Argelini</li>
+			
+			</ul>
+
+			<ul>
+				<li class="mixed" onclick="mix()">MIX</li>
+                <input id="Out" type="text"/>
+			</ul>
+	</div>
+
+			<hr class="hr1" color="#000">
+
+
+<div id="videofix" class="videofix">
+<iframe width="360" height="215" src="https://www.youtube.com/embed/wTeIZI9MbZI" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/QP3iZvR_xHw" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/w3Fa0VFZwQw" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/b3axXr766ps" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/tkoiout2Jc0" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/clJPnMoMBv0" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/jdFIJ6V47Fw" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/FHp6P2R-n70" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/21r4gcZbUCY" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/9NopJs8W4mU" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/3VdRUcLe1YA" frameborder="0" allowfullscreen class="video"></iframe>
+<iframe width="360" height="215" src="https://www.youtube.com/embed/4lN0niZMsEk" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+</body>
+	<script>
+
+        var IndexZhesrcost = 0;
+        var IndexZhestcost_0 = 0;
+        var _Array = [];
+
+        function sloy_1(_ID) {
+            if (IndexZhesrcost != 0) 
+            {
+                element = document.getElementById(IndexZhesrcost);
+                element.style.backgroundColor = "#3f3f3f";
+                element.style.color = "white";
+            }
+            IndexZhesrcost = _ID;
+            element = document.getElementById(_ID);
+            element.style.backgroundColor = "#fff";
+            element.style.color = "#000";
+
+        }
+
+        function sloy_2(_ID) {
+            if (IndexZhestcost_0 != 0) {
+                element = document.getElementById(IndexZhestcost_0);
+                element.style.backgroundColor = "#3f3f3f";
+                element.style.color = "white";
+            }
+            IndexZhestcost_0 = _ID;
+            element = document.getElementById(_ID);
+            element.style.backgroundColor = "#fff";
+            element.style.color = "#000";
+            sloy_end();
+        }
+
+        function sloy_end() {
+            document.getElementById(8).style.backgroundColor = "#3f3f3f";
+            document.getElementById(8).style.color = "white";
+            document.getElementById(9).style.backgroundColor = "#3f3f3f";
+            document.getElementById(9).style.color = "white";
+            document.getElementById(10).style.backgroundColor = "#3f3f3f";
+            document.getElementById(10).style.color = "white";
+            document.getElementById(11).style.backgroundColor = "#3f3f3f";
+            document.getElementById(11).style.color = "white";
+            document.getElementById(12).style.backgroundColor = "#3f3f3f";
+            document.getElementById(12).style.color = "white";
+            document.getElementById(13).style.backgroundColor = "#3f3f3f";
+            document.getElementById(13).style.color = "white";
+            document.getElementById(14).style.backgroundColor = "#3f3f3f";
+            document.getElementById(14).style.color = "white";
+            document.getElementById(15).style.backgroundColor = "#3f3f3f";
+            document.getElementById(15).style.color = "white";
+            if (IndexZhestcost_0 == 5) {
+                document.getElementById(8).style.backgroundColor = "#fff";
+                document.getElementById(8).style.color = "#000";
+                document.getElementById(9).style.backgroundColor = "#fff";
+                document.getElementById(9).style.color = "#000";
+                document.getElementById(10).style.backgroundColor = "#fff";
+                document.getElementById(10).style.color = "#000";
+                document.getElementById(14).style.backgroundColor = "#fff";
+                document.getElementById(14).style.color = "#000";
+                document.getElementById(15).style.backgroundColor = "#fff";
+                document.getElementById(15).style.color = "#000";
+            }
+            if (IndexZhestcost_0 == 6) {
+                document.getElementById(11).style.backgroundColor = "#fff";
+                document.getElementById(11).style.color = "#000";
+                document.getElementById(13).style.backgroundColor = "#fff";
+                document.getElementById(13).style.color = "#000";
+            }
+            if (IndexZhestcost_0 == 7) {
+                document.getElementById(12).style.backgroundColor = "#fff";
+                document.getElementById(12).style.color = "#000";
+            }
+        }
+
+        function wwww(_ID) {
+            element = document.getElementById(_ID);
+            if (_ID >= 8 && _ID <= 15) {
+                element.style.backgroundColor = "#ff0000";
+            }
+        }
+
+        function mix() {
+            element = document.getElementById("Out");
+            _Array = new Array();
+        
+            if (IndexZhesrcost == 1) {
+                _Array[_Array.length] = 'Alfakher: Арбуз' ;
+                _Array[_Array.length] = 'Alfakher: Дыня';
+                _Array[_Array.length] = 'Alfakher: Виноград';
+                _Array[_Array.length] = 'Adalya: Клубника';
+                _Array[_Array.length] = 'Adalya: Персик';
+                _Array[_Array.length] = 'Adalya: Ананас';
+                _Array[_Array.length] = 'Fasil: Манго';
+                _Array[_Array.length] = 'Fasil: Банан';
+                _Array[_Array.length] = 'Fasil: Клубника-виноград';
+                _Array[_Array.length] = 'Nakhla: Дыня-молоко';
+                _Array[_Array.length] = 'Nakhla: Виноград-Киви';
+                _Array[_Array.length] = 'Nakhla: Манго-маракуя';
+                _Array[_Array.length] = 'Tangir: Ананас-персик';
+                _Array[_Array.length] = 'Tangir: Клубничный милк-шейк';
+                _Array[_Array.length] = 'Tangir: Кашмир-Персик';
+                _Array[_Array.length] = 'Afzal: Медовая-Дыня';
+                _Array[_Array.length] = 'Afzal: Карамель';
+                _Array[_Array.length] = 'Afzal: Шоколад';
+                _Array[_Array.length] = 'Serbetli: Ротана';
+                _Array[_Array.length] = 'Serbetli: Клубника';
+                _Array[_Array.length] = 'Serbetli: Молоко';
+                _Array[_Array.length] = 'Argelini: Черный Виноград';
+                _Array[_Array.length] = 'Argelini: Ананас';
+                _Array[_Array.length] = 'Argelini: Астана';
+            
+            }
+                      
+
+            if (IndexZhesrcost == 2) {
+                _Array[_Array.length] = 'Alfakher: Апельсин' ;
+                _Array[_Array.length] = 'Alfakher: Лимон';
+                _Array[_Array.length] = 'Alfakher: Грейпфрут';
+                _Array[_Array.length] = 'Adalya: Личи-лайм';
+                _Array[_Array.length] = 'Adalya: Лайм';
+                _Array[_Array.length] = 'Adalya: Гуава';
+                _Array[_Array.length] = 'Fasil: Мандарин';
+                _Array[_Array.length] = 'Fasil: Лимон';
+                _Array[_Array.length] = 'Fasil: Фанта';
+                _Array[_Array.length] = 'Nakhla: Апельсин';
+                _Array[_Array.length] = 'Nakhla: Космополитан';
+                _Array[_Array.length] = 'Nakhla: Айс-Lemon-минт';
+                _Array[_Array.length] = 'Tangir: OrangeSoda';
+                _Array[_Array.length] = 'Tangir: Tangerin';
+                _Array[_Array.length] = 'Tangir: Грейпфрут';
+                _Array[_Array.length] = 'Afzal: Кислая Вишня';
+                _Array[_Array.length] = 'Afzal: Гранат';
+                _Array[_Array.length] = 'Afzal: Лесные ягоды';
+                _Array[_Array.length] = 'Serbetli: Личи-лайм';
+                _Array[_Array.length] = 'Serbetli: Лайм-Черника';
+                _Array[_Array.length] = 'Serbetli: Asai';
+                _Array[_Array.length] = 'Argelini: РедФрут';
+                _Array[_Array.length] = 'Argelini: Красное Яблоко';
+                _Array[_Array.length] = 'Argelini: Цитрус-Маракуя';
+            }
+                       
+
+            if (IndexZhesrcost == 3) {
+                _Array[_Array.length] = 'Alfakher: Орбит' ;
+                _Array[_Array.length] = 'Alfakher: Мята';
+                _Array[_Array.length] = 'Adalya: Фруктовая жевачка';
+                _Array[_Array.length] = 'Adalya: Малина-Мята';
+                _Array[_Array.length] = 'Fasil: Мандарин-мята';
+                _Array[_Array.length] = 'Fasil: Персик-мята';
+                _Array[_Array.length] = 'Nakhla: Мята';
+                _Array[_Array.length] = 'Nakhla: Лимон-мята';
+                _Array[_Array.length] = 'Tangir: OrangeSoda-мята';
+                _Array[_Array.length] = 'Tangir: Tangerin-мята';
+                _Array[_Array.length] = 'Afzal: Кислая Вишня-мята';
+                _Array[_Array.length] = 'Afzal: Гранат-мята';
+                _Array[_Array.length] = 'Serbetli: Лайм-мята';
+                _Array[_Array.length] = 'Serbetli: Черника-мята';
+                _Array[_Array.length] = 'Argelini: РедФрут-мята';
+                _Array[_Array.length] = 'Argelini: Яблоко-мята';
+        
+            }
+                
+
+               if (IndexZhesrcost == 4) {
+                _Array[_Array.length] = 'Alfakher: Пирог' ;
+                _Array[_Array.length] = 'Alfakher: Малиновый пирог';
+                _Array[_Array.length] = 'Adalya: Фруктовый пирог';
+                _Array[_Array.length] = 'Adalya: Кекс';
+                _Array[_Array.length] = 'Fasil: Банановое печенье';
+                _Array[_Array.length] = 'Fasil: Американский торт';
+                _Array[_Array.length] = 'Nakhla: Шоколадный чизкейк';
+                _Array[_Array.length] = 'Nakhla: Лимонный пирог';
+                _Array[_Array.length] = 'Tangir: Клубничный пирог';
+                _Array[_Array.length] = 'Tangir: Овсянное печенье';
+                _Array[_Array.length] = 'Afzal: Ванильный латте';
+                _Array[_Array.length] = 'Afzal: Апельсиновый чизкейк';
+                _Array[_Array.length] = 'Serbetli: Шоколад-молоко-кокос';
+                _Array[_Array.length] = 'Serbetli: Черничный пирог';
+                _Array[_Array.length] = 'Argelini: Фруктовый торт';
+                _Array[_Array.length] = 'Argelini: Банановое молоко';
+            }
+
+
+
+            if (IndexZhestcost_0 == 5) {
+                remove('Nakhla: Апельсин');
+                remove('Nakhla: Космополитан');
+                remove('Nakhla: Айс-Lemon-минт');
+                remove('Tangir: OrangeSoda');
+                remove('Tangir: Tangerin');
+                remove('Tangir: Грейпфрут');
+                remove('Afzal: Кислая Вишня');
+                remove('Afzal: Гранат');    
+                remove('Afzal: Лесные ягоды');
+                remove('Nakhla: Дыня-молоко');
+                remove('Nakhla: Виноград-Киви');
+                remove('Nakhla: Манго-маракуя');
+                remove('Tangir: Ананас-персик');
+                remove('Tangir: Клубничный милк-шейк');
+                remove('Tangir: Кашмир-Персик');
+                remove('Afzal: Медовая-Дыня');
+                remove('Afzal: Карамель');
+                remove('Afzal: Шоколад');
+                remove('Nakhla: Мята');
+                remove('Nakhla: Лимон-мята');
+                remove('Tangir: OrangeSoda-мята');
+                remove('Tangir: Tangerin-мята');
+                remove('Afzal: Кислая Вишня-мята');
+                remove('Afzal: Гранат-мята');
+                remove('Nakhla: Шоколадный чизкейк');
+                remove('Nakhla: Лимонный пирог');
+                remove('Tangir: Клубничный пирог');
+                remove('Tangir: Овсянное печенье');
+                remove('Afzal: Ванильный латте');
+                remove('Afzal: Апельсиновый чизкейк');
+     
+             
+
+            }
+            //весли средний то удоляем
+            if (IndexZhestcost_0 == 6) {
+                remove('Alfakher: Арбуз' );
+                remove('Alfakher: Дыня');
+                remove('Alfakher: Виноград');
+                remove('Adalya: Клубника');
+                remove('Adalya: Персик');
+                remove('Adalya: Ананас');
+                remove('Fasil: Манго');
+                remove('Fasil: Банан');
+                remove('Fasil: Клубника-виноград');
+                remove('Tangir: Ананас-персик');
+                remove('Tangir: Клубничный милк-шейк');
+                remove('Tangir: Кашмир-Персик');
+                remove('Serbetli: Ротана');
+                remove('Serbetli: Клубника');
+                remove('Serbetli: Молоко');
+                remove('Argelini: Черный Виноград');
+                remove('Argelini: Ананас');
+                remove('Argelini: Астана');            
+                remove('Alfakher: Апельсин' );
+                remove('Alfakher: Лимон');
+                remove('Alfakher: Грейпфрут');
+                remove('Adalya: Личи-лайм');
+                remove('Adalya: Лайм');
+                remove('Adalya: Гуава');
+                remove('Fasil: Мандарин');
+                remove('Fasil: Лимон');
+                remove('Fasil: Фанта');
+                remove('Tangir: OrangeSoda');
+                remove('Tangir: Tangerin');
+                remove('Tangir: Грейпфрут');
+                remove('Serbetli: Личи-лайм');
+                remove('Serbetli: Лайм-Черника');
+                remove('Serbetli: Asai');
+                remove('Argelini: РедФрут');
+                remove('Argelini: Красное Яблоко');
+                remove('Argelini: Цитрус-Маракуя');
+                remove('Alfakher: Орбит' );
+                remove('Alfakher: Мята');
+                remove('Adalya: Фруктовая жевачка');
+                remove('Adalya: Малина-Мята');
+                remove('Fasil: Мандарин-мята');
+                remove('Fasil: Персик-мята');
+                remove('Tangir: OrangeSoda-мята');
+                remove('Tangir: Tangerin-мята');
+                remove('Serbetli: Лайм-мята');
+                remove('Serbetli: Черника-мята');
+                remove('Argelini: РедФрут-мята');
+                remove('Argelini: Яблоко-мята');
+                remove('Alfakher: Пирог') ;
+                remove('Alfakher: Малиновый пирог');
+                remove('Adalya: Фруктовый пирог');
+                remove('Adalya: Кекс');
+                remove('Fasil: Банановое печенье');
+                remove('Fasil: Американский торт');
+                remove('Tangir: Клубничный пирог');
+                remove('Tangir: Овсянное печенье');
+                remove('Serbetli: Шоколад-молоко-кокос');
+                remove('Serbetli: Черничный пирог');
+                remove('Argelini: Фруктовый торт');
+                remove('Argelini: Банановое молоко');
+   
+            }
+            //весли тяжелый то удоляем
+            if (IndexZhestcost_0 == 7) {
+                remove('Alfakher: Арбуз' );
+                remove('Alfakher: Дыня');
+                remove('Alfakher: Виноград');
+                remove('Adalya: Клубника');
+                remove('Adalya: Персик');
+                remove('Adalya: Ананас');
+                remove('Fasil: Манго');
+                remove('Fasil: Банан');
+                remove('Fasil: Клубника-виноград');
+                remove('Serbetli: Ротана');
+                remove('Serbetli: Клубника');
+                remove('Serbetli: Молоко');
+                remove('Argelini: Черный Виноград');
+                remove('Argelini: Ананас');
+                remove('Argelini: Астана');            
+                remove('Alfakher: Апельсин' );
+                remove('Alfakher: Лимон');
+                remove('Alfakher: Грейпфрут');
+                remove('Adalya: Личи-лайм');
+                remove('Adalya: Лайм');
+                remove('Adalya: Гуава');
+                remove('Fasil: Мандарин');
+                remove('Fasil: Лимон');
+                remove('Fasil: Фанта');
+                remove('Serbetli: Личи-лайм');
+                remove('Serbetli: Лайм-Черника');
+                remove('Serbetli: Asai');
+                remove('Argelini: РедФрут');
+                remove('Argelini: Красное Яблоко');
+                remove('Argelini: Цитрус-Маракуя');
+                remove('Alfakher: Орбит' );
+                remove('Alfakher: Мята');
+                remove('Adalya: Фруктовая жевачка');
+                remove('Adalya: Малина-Мята');
+                remove('Fasil: Мандарин-мята');
+                remove('Fasil: Персик-мята');
+                remove('Serbetli: Лайм-мята');
+                remove('Serbetli: Черника-мята');
+                remove('Argelini: РедФрут-мята');
+                remove('Argelini: Яблоко-мята');
+                remove('Alfakher: Пирог') ;
+                remove('Alfakher: Малиновый пирог');
+                remove('Adalya: Фруктовый пирог');
+                remove('Adalya: Кекс');
+                remove('Fasil: Банановое печенье');
+                remove('Fasil: Американский торт');
+                remove('Serbetli: Шоколад-молоко-кокос');
+                remove('Serbetli: Черничный пирог');
+                remove('Argelini: Фруктовый торт');
+                remove('Argelini: Банановое молоко');
+                remove('Nakhla: Апельсин');
+                remove('Nakhla: Космополитан');
+                remove('Nakhla: Айс-Lemon-минт');
+                remove('Afzal: Кислая Вишня');
+                remove('Afzal: Гранат');    
+                remove('Afzal: Лесные ягоды');
+                remove('Nakhla: Дыня-молоко');
+                remove('Nakhla: Виноград-Киви');
+                remove('Nakhla: Манго-маракуя');
+                remove('Afzal: Медовая-Дыня');
+                remove('Afzal: Карамель');
+                remove('Afzal: Шоколад');
+                remove('Nakhla: Мята');
+                remove('Nakhla: Лимон-мята');
+                remove('Afzal: Кислая Вишня-мята');
+                remove('Afzal: Гранат-мята');
+                remove('Nakhla: Шоколадный чизкейк');
+                remove('Nakhla: Лимонный пирог');
+                remove('Afzal: Ванильный латте');
+                remove('Afzal: Апельсиновый чизкейк');
+            }
+               
+            element.value = _Array[Math.floor(Math.random() * _Array.length)];
+        }
+
+        function remove (v){
+            i = _Array.indexOf(v);
+                if (i != -1)
+                    _Array.splice(i, 1);
+        }
+        
+	</script>
+</html>
